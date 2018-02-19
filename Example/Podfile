@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DeleteMe_Example' do
+  pod 'DeleteMe', :path => '../'
+
+  target 'DeleteMe_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
