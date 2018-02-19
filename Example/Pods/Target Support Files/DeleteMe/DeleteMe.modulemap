@@ -1,0 +1,6 @@
+framework module DeleteMe {
+  umbrella header "DeleteMe-umbrella.h"
+
+  export *
+  module * { export * }
+}
